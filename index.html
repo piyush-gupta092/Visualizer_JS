@@ -9,23 +9,24 @@
 </head>
 <body >
   <header class="head">
-    <img src="icon.png" alt="logo">
+    <img src="image/icon.png" alt="logo">
   </header>
   <nav class="navbar">
     <ul>
       <li><button class="btn1" onclick="generate()" id="Button1" >Generate New Array</button></li>
-      <li><button class="btn2" onclick="SelectionSort(),disable()" id="Button2" >Bubble Sort</button></li>
+      <li><button class="btn2" onclick="BubbleSort(),disable()" id="Button2" >Bubble Sort</button></li>
       <li>
         <button class="btn2" onclick="SelectionSort(),disable()" id="Button3" >Selection Sort</button>
       </li>
       <li>
-        <button class="btn2" onclick="SelectionSort(),disable()" id="Button4" >Merge Sort</button>
+        <button class="btn2" onclick="MergeSort(),disable()" id="Button4" >Merge Sort</button>
       </li>
-      <li><button class="btn2" onclick="SelectionSort(),disable()" id="Button5" >Insertion Sort</button></li>
+      <li><button class="btn2" onclick="InsertionSort(),disable()" id="Button5" >Insertion Sort</button></li>
     </ul>
   </nav>
   <section class="ViewSection">
     <section class="data-container"></section>
+    <section id="ele"></section>
   </section>
 </body>
 <script src="main.js"></script>
