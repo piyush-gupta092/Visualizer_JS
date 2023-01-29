@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #020A28;
+	font-family: Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.head{
+	height: 20vh;
+	background-color: #020A28;
+}
+img{
+	margin-top: -80px;
+	height: 300px;
+}
+.navbar {
+    position: fixed;
+	background-color: #020A28;
+    min-width: 300px;
+    left: 0px;
+    height: 100%;
+}
+.navbar ul {
+	position: relative;
+    margin-top: 50px;
+}
+.navbar li {
+    list-style: none;
+    width: 100%;
+    margin: 15px ;
+    margin-left: 45px;
+}
+.ViewSection{
+	position: relative;
+	margin-top: -25px;
+	left: 300px;
+	width: 75%;
+	height: 75vh;
+	background-color: #212946;
+}
+.data-container {
+	width: 600px;
+	height: 55vh;
+	position: relative;
+	top: 80px;
+    border: white 1px solid;
+    border-radius: 3px;
+    padding-left: 2px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bar {
+	width: 28px;
+	position: absolute;
+	left: auto;
+	bottom: 0;
+    right: auto;
+	background-color: #00A7E1;
+	transition: 0.2s all ease;
+}
+
+.bar__id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+}
+.btn1 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #459e5b;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	width: 200px;
+	height: 50px;
+}
+.btn2 {
+    width: 200px;
+	height: 50px;
+    margin: auto;
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #646464;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+}
+.btn2:hover {
+	background-color: rgb(30, 4, 92);
+	border: 2px whitesmoke solid;
+	transition: background-color 1s ease-out 100ms
+}
+#ele{
+	margin-top: 100px;
+	color: rgb(75, 228, 88);
+	text-align: center;
+	height: 35px;
+}
